@@ -31,6 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+a{
+     text-decoration: none;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -47,3 +52,28 @@ table {
 	border-spacing: 0;
 }
 
+.container{
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* HEADER START */
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.nav-ul{
+    display: flex;
+    gap: 51px;
+}
+
+.address-ul{
+    display: flex;
+    gap: 20px;
+}
+
+/* HEADER END */
