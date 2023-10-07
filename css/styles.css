@@ -27,12 +27,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    font-family: 'Lora';
+    font-family:   'Lora';
 }
 
 img{
-    display: block;
-    max-width: 100%;
+    display:        block;
+    max-width:      100%;
 }
 
 a{
@@ -40,27 +40,27 @@ a{
 }
 
 ol, ul {
-	list-style: none;
+	list-style:      none;
 }
 blockquote, q {
-	quotes: none;
+	quotes:          none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
-	content: none;
+	content:         none;
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing:  0;
 }
 
 /* CONFIGURATION START */
 
 .container{
-    width: 1220px;
-    margin: 0 auto;
-    padding: 0 15px;
+    width:          1220px;
+    margin:         0 auto;
+    padding:        0 15px;
 }
 
 /* CONFIGURATION END */
@@ -68,27 +68,26 @@ table {
 /* HEADER START */
 
 .header-wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
+    display:            flex;
+    justify-content:    space-between;
+    align-items:        center;
+    padding:            15px 0;
 }
 
 .nav-ul{
-    display: flex;
-    gap: 51px;
+    display:            flex;
+    gap:                51px;
 }
 
 .nav-link{
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1;
-    color: #484848;
+    font-size:          24px;
+    font-weight:        400;
+    color:            #484848;
 }
 
 .address-ul{
-    display: flex;
-    gap: 20px;
+    display:            flex;
+    gap:                20px;
 }
 
 /* HEADER END */
@@ -96,64 +95,64 @@ table {
 /* HERO START */
 
 .hero{
-    padding: 64px 0;
+    padding:            64px 0;
 }
 
 .wrapper-hero{
-    display: flex;
+    display:            flex;
 }
 
 .wrapper-title{
-    padding: 63px 0;
+    padding:            63px 0;
 }
 
 .title-main{
-    font-size: 46px;
-    font-weight: 500;
+    font-size:          46px;
+    font-weight:        500;
 }
 
 .span-title-name{
-    color: #5F8D4E;
-    font-family: 'Caveat';
-    font-size: 66px;
-    font-weight: 400;
-    line-height: 1.0773; 
+    color:            #5F8D4E;
+    font-family:       'Caveat';
+    font-size:          66px;
+    font-weight:        400;
+    line-height:        1.0773; 
 }
 
 .title-text{
-    font-size: 30px;
-    font-weight: 400;
-    margin-top: 82px;
-    max-width: 541px;
+    font-size:          30px;
+    font-weight:        400;
+    margin-top:         82px;
+    max-width:          541px;
 }
 
 .order-btn{
-    margin-top: 30px;
+    margin-top:         30px;
 
-    font-size: 26px;
-    font-weight: 600;
-    color: #FFF;
+    font-size:          26px;
+    font-weight:        600;
+    color:            #FFF;
 
-    padding: 19px 58px;
+    padding:            19px 58px;
     background-color: #5F8D4E;
     
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.13);
+    border:             0;
+    border-radius:      10px;
+    box-shadow:         0px 4px 7px 0px rgba(0, 0, 0, 0.13);
 }
 
 .wrapper-photo{
-    max-width: 533px;
-    max-height: 561px;
-    padding: 25px 42px 26px 42px;
-    border-radius: 250px 250px 0px 0px;
-    border: 1px solid #3E7C17;
+    max-width:          533px;
+    max-height:         561px;
+    padding:            25px 42px 26px 42px;
+    border-radius:      250px 250px 0px 0px;
+    border:             1px solid #3E7C17;
 }
 
 .photo-marina-main{
-    border-radius: 250px 250px 0px 0px;
-    margin: 0 auto;
-    box-shadow: 0px 6px 24px 0px rgba(95, 141, 78, 0.46);
+    border-radius:      250px 250px 0px 0px;
+    margin:             0 auto;
+    box-shadow:         0px 6px 24px 0px rgba(95, 141, 78, 0.46);
 }
 
 /* HERO END */
