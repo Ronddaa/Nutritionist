@@ -28,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     font-family:   'Lora';
+    color: #484848;
 }
 
 img{
@@ -252,7 +253,7 @@ table {
     gap: 40px;
 }
 
-.consultation-type:nth-child(2){
+.consultation-li:nth-child(even){
     background-color: #C8E4B2;
 }
 
@@ -264,6 +265,7 @@ table {
     border-radius: 10px;
     border: 2px solid #5F8D4E;
     padding: 14px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -300,3 +302,34 @@ table {
 }
 
 /* CONSULTATION END */
+
+/* ABOUT-ME START */
+
+.wrapper-about-me{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C8E4B2;
+    border-radius: 10px;
+    padding: 55px 65px;
+}
+
+.wrapper-about-text{
+    max-width: 437px;
+}
+
+.title-name{
+    font-size: 46px;
+    font-weight: 500;
+}
+
+.about-me-p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.wrapper-about-photo > img{
+    border-radius: 10px;
+}
+
+/* ABOUT-ME END */
+
