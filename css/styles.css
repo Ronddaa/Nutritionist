@@ -155,4 +155,148 @@ table {
     box-shadow:         0px 6px 24px 0px rgba(95, 141, 78, 0.46);
 }
 
+.wrapper-facts{
+    display: flex;
+    width: 1350px;
+    height: 209px;
+    border-radius: 150px;
+    background: #C8E4B2;
+    margin: 0 auto;
+    margin-top: 66px;
+    justify-content: center;
+    align-items: center;
+}
+
+.facts-ul{
+    display: flex;
+    justify-content: center;
+    gap: 178px;
+    text-align: center;
+}
+
+.title-facts{
+    font-size: 46px;
+    font-weight: 500;
+    color: #5F8D4E;
+}
+
+.facts-p{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
 /* HERO END */
+
+/* GIFT START */
+
+.gift{
+    padding: 64px 0;
+}
+
+.wrapper-gift{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-title-gift{
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0;
+    max-width: 688px;
+}
+
+.title-lvl-2{
+    font-size: 46px;
+    font-weight: 500;
+    color: #5F8D4E;
+}
+
+.text-gift{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.span-title-gift{
+    color: #5F8D4E;
+}
+
+.gift-btn{
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #5F8D4E;
+    color: #FFF;
+    border: 0;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.13);
+    padding: 17px 21px;
+    max-width: 257px;
+    margin-top: 40px;
+}
+
+/* GIFT END */
+
+/* CONSULTATION START */
+
+.consultation{
+    padding: 64px 0;
+}
+
+.wrapper-consultation{
+    text-align: center;
+}
+
+.consultation-type{
+    display: flex;
+    margin-top: 70px;
+    gap: 40px;
+}
+
+.consultation-type:nth-child(2){
+    background-color: #C8E4B2;
+}
+
+.consultation-type > img{
+    border-radius: 10px;
+}
+
+.consultation-li{
+    border-radius: 10px;
+    border: 2px solid #5F8D4E;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title-consultation{
+    font-size: 24px;
+    font-weight: 500;
+    color: #484848;
+}
+
+.consultation-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.consultation-ul
+
+.ul-li{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.consultation-btn{
+    font-size: 26px;
+    font-weight: 600;
+    color: #FFF;
+    border: 0;
+    background-color: #5F8D4E;
+    padding:  10px 21px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+/* CONSULTATION END */
