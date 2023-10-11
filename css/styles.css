@@ -345,11 +345,12 @@ table {
     border-radius: 150px;
     background:#5F8D4E;
     position: absolute;
-    top: 85.4%;
-    left: 5.8%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
     overflow: hidden;
     display: flex;
-    padding: 32px ;
+    padding: 32px;
 }
 
 .diploma-ul{
@@ -370,5 +371,7 @@ table {
     padding: 64px 0;
     margin-top: 150px;
 }
+
+
 
 /* TAKE-CONSILTATION END */
