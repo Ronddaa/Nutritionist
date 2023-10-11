@@ -29,6 +29,8 @@ body {
 	line-height: 1;
     font-family:   'Lora';
     color: #484848;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 img{
@@ -369,7 +371,20 @@ table {
 
 .take-consultation{
     margin-top: 180px;
-    background-image: url(../images/bc-form.jpg);
+    background-image: 
+    
+    linear-gradient(to bottom, 
+      rgba(255 255 255 / 0.6),
+      rgba(255 255 255 / 0.6)),
+
+    
+    url(../images/bc-form.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* border-radius: 55px; */
 }
 
 .wrapper-consultation-form{
