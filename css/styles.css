@@ -368,10 +368,66 @@ table {
 /* TAKE-CONSILTATION START */
 
 .take-consultation{
-    padding: 64px 0;
-    margin-top: 150px;
+    margin-top: 180px;
+    background-image: url(../images/bc-form.jpg);
 }
 
+.wrapper-consultation-form{
+    text-align: center;
+    padding: 40px 25px 50px;
+}
 
+.title-consultation-form{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.consultation-p{
+    font-size: 28px;
+    font-weight: 400;    
+}
+
+.wrapper-input-consultation{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 101px;
+}
+
+.input-consultation{
+    border: 0;
+    padding: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid #484848;
+}
+
+.wrapper-consultation-btn{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.take-consultation-btn{
+    font-size: 26px;
+    font-weight: 600;
+    color: #FFF;
+    border: 0;
+    width: 265px;
+    background-color: #5F8D4E;
+    padding:  10px 21px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.about-consultation-btn{
+    font-size: 26px;
+    font-weight: 600;
+    color: #484848;
+    border: 2px solid #5F8D4E;
+    background-color: transparent;
+    padding:  10px 21px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
 
 /* TAKE-CONSILTATION END */
