@@ -446,3 +446,26 @@ table {
 }
 
 /* TAKE-CONSILTATION END */
+
+/* FEEDBACK START */
+
+.feedback{
+    padding: 150px 0;
+    text-align: center;
+}
+
+.wrapper-feedback{
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.feedback-list{
+    background-color: #5F8D4E;
+    padding: 25px;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+/* FEEDBACK START */
+
