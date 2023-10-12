@@ -384,7 +384,7 @@ table {
     background-size: cover;
     background-repeat: no-repeat;
 
-    /* border-radius: 55px; */
+    border-radius: 55px;
 }
 
 .wrapper-consultation-form{
