@@ -29,7 +29,6 @@ body {
 	line-height: 1;
     font-family:   'Lora';
     color: #484848;
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -66,6 +65,11 @@ table {
     padding:        0 15px;
 }
 
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* CONFIGURATION END */
 
 /* HEADER START */
@@ -91,6 +95,10 @@ table {
 .address-ul{
     display:            flex;
     gap:                20px;
+}
+
+.header-logo{
+    fill: #5F8D4E;
 }
 
 /* HEADER END */
@@ -290,6 +298,7 @@ table {
 .ul-li{
     font-size: 20px;
     font-weight: 400;
+    line-height: 1.3;
 }
 
 .consultation-btn{
@@ -472,8 +481,145 @@ table {
 /* POSTS START */
 
 .posts{
-    
+    background-image: url(../images/bc-posts.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 176px 410px;
+    height: 687px;
+    position: relative;
+}
+
+.wrapper-posts{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 45px 95px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    max-width: 616px;
+}
+
+.title-posts{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #5F8D4E;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.posts-p{
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    max-width: 428px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+}
+
+.posts-btn{
+    background-color: #5F8D4E;
+    padding: 10px 21px;
+    font-size: 26px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    width: 262px;
+    margin: 0 auto;
 }
 
 /* POSTS END */
+
+/* FORM START */
+
+.form{
+    padding: 150px 55px;
+}
+
+.wrapper-form{
+    display: flex;
+    gap: 73px;
+}
+
+.wrapper-form-feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title-form{
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #5F8D4E;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.input-form{
+    font-size: 20px;
+    line-height: 1.3;
+    padding: 18px 25px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.input-form-comments{
+    font-size: 20px;
+    line-height: 1.3;
+    padding: 18px 25px;
+    border-radius: 10px;
+    border: 1px solid;
+    resize: none;
+}
+
+.form-btn{
+    background-color: #5F8D4E;
+    padding: 10px 21px;
+    font-size: 26px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    width: 262px;
+}
+
+/* FORM END */
+
+/* FOOTER START */
+
+.footer{
+    background-color: #484848;
+    padding: 88px 0;
+}
+
+.wrapper-footer{
+    display: flex;
+    gap: 225px;
+}
+
+.footer-logo{
+    fill: #C8E4B2;
+}
+
+.footer-address-link,
+.footer-nav-li > a{
+    text-decoration: 0;
+    color: #fff;
+    font-style: normal;
+}
+
+.footer-nav-ul,
+.footer-address-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* FOOTER END */
 
