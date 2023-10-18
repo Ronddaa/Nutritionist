@@ -502,6 +502,12 @@ button{
     padding:  10px 21px;
     border-radius: 10px;
     margin-top: 40px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.take-consultation-btn:hover,
+.take-consultation-btn:focus{
+    box-shadow: 0px 0px 15px 1px #80FE44;
 }
 
 .about-consultation-btn{
@@ -513,6 +519,12 @@ button{
     padding:  10px 21px;
     border-radius: 10px;
     margin-top: 40px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.about-consultation-btn:hover,
+.about-consultation-btn:focus{
+    box-shadow: 0px 0px 15px 1px #80FE44;
 }
 
 /* TAKE-CONSILTATION END */
@@ -592,7 +604,10 @@ button{
     color: #fff;
     width: 262px;
     margin: 0 auto;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 /* POSTS END */
 
