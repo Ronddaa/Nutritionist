@@ -431,14 +431,24 @@ button{
     padding: 32px;
 }
 
-.diploma-ul{
-    display: flex;
-    align-items: center;
-    gap: 31px;
+.wrapper-slider-diploma{
+    width: 248px;
+    margin: 0 auto;
+    border: 2px solid;
 }
 
-.diploma-li > img{
+.slider-line-diploma{
+    display: flex;
+    width: 992px;
+    position: relative;
+}
+
+.diploma-img{
     border-radius: 10px;
+}
+
+.slider-diploma-btn{
+    position: absolute;
 }
 
 /* ABOUT-ME END */
