@@ -200,6 +200,12 @@ button{
     padding:            25px 42px 26px 42px;
     border-radius:      250px 250px 0px 0px;
     border:             1px solid #3E7C17;
+    position: relative;
+}
+
+.icon-stars{
+    position: absolute;
+    fill: #3e7c17;
 }
 
 .photo-marina-main{
@@ -210,7 +216,7 @@ button{
 
 .wrapper-facts{
     display: flex;
-    width: 1350px;
+    width: 100%;
     height: 209px;
     border-radius: 150px;
     background: #C8E4B2;
@@ -412,7 +418,7 @@ button{
 }
 
 .wrapper-diploma{
-    width: 1350px;
+    width: 100%;
     height: 233px;
     border-radius: 150px;
     background:#5F8D4E;
@@ -607,7 +613,10 @@ button{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+.posts-btn:hover,
+.posts-btn:focus{
+    box-shadow: 0px 0px 15px 1px #80FE44;
+}
 
 /* POSTS END */
 
@@ -663,6 +672,12 @@ button{
     border-radius: 10px;
     color: #fff;
     width: 262px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-btn:hover,
+.form-btn:focus{
+    box-shadow: 0px 0px 15px 1px #80FE44;
 }
 
 /* FORM END */
@@ -703,6 +718,18 @@ button{
 
 .footer-social-icon{
     fill: #fff;
+}
+
+.footer-nav-li:hover > a{
+    color: #d6ffcd;
+}
+
+.footer-address-link:hover{
+    color: #d6ffcd;
+}
+
+.footer-social-icon:hover{
+    fill: #d6ffcd;
 }
 
 /* FOOTER END */
