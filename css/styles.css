@@ -438,7 +438,6 @@ button{
 }
 
 .slider-line-diploma{
-    display: flex;
     width: 992px;
     position: relative;
 }
